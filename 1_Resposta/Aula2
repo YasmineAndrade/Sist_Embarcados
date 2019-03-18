@@ -14,6 +14,8 @@
 (a) Obter mais informações sobre um comando.
 (b) Apresentar uma lista com os arquivos dentro de uma pasta.
 (c) Apresentar o caminho completo da pasta.
+pwd
+
 (d) Trocar de pasta.
 (e) Criar uma pasta.
 (f) Apagar arquivos definitivamente.
@@ -27,7 +29,10 @@
 (n) Apresentar o tipo de um arquivo.
 (o) Limpar a tela do terminal.
 (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+grep
+
 (q) Ordenar informações em um arquivo-texto.
 (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+sed -e 's/a/b/' <-- Substitui a por b.
 (s) Conferir se dois arquivos são iguais.
 (t) Escrever algo na tela.
