@@ -9,7 +9,8 @@ em vez de estar sob o controle direto de um usuário interativo.
 R: O Shell é uma interface de usuário para acessar os serviços de um sistema operacional.
 
 4. Por que é importante evitar executar o terminal como super-usuário?
-R: 
+R: Por que o ele dá acesso a todos os arquivos e configurações existentes no dispositivo, sendo arriscado
+fazer modificações ou excluir arquivos e dados importantes.
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 R: tab
@@ -19,13 +20,23 @@ R: Setas para cima e para baixo
 
 7. Apresente os respectivos comandos no terminal para:
 (a) Obter mais informações sobre um comando.
+R: Help
+
 (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+R: ls
+
 (c) Apresentar o caminho completo da pasta.
 R: pwd
 
 (d) Trocar de pasta.
+R: cd
+
 (e) Criar uma pasta.
+R: 
+
 (f) Apagar arquivos definitivamente.
+R: 
+
 (g) Apagar pastas definitivamente.
 (h) Copiar arquivos.
 (i) Copiar pastas.
