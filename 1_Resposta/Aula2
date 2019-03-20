@@ -32,19 +32,35 @@ R: pwd
 R: cd
 
 (e) Criar uma pasta.
-R: 
+R: mkdir
 
 (f) Apagar arquivos definitivamente.
-R: 
+R: rm
 
 (g) Apagar pastas definitivamente.
+R: rm -rf
+
 (h) Copiar arquivos.
+R: cp
+
 (i) Copiar pastas.
+R:
+
 (j) Mover arquivos.
+mv
+
 (k) Mover pastas.
+mv
+ 
 (l) Renomear pastas.
+mv
+
 (m) Apresentar o conteúdo de um arquivo.
+R: cat
+
 (n) Apresentar o tipo de um arquivo.
+R: file
+
 (o) Limpar a tela do terminal.
 R: Clear
 
@@ -52,7 +68,13 @@ R: Clear
 R: grep
 
 (q) Ordenar informações em um arquivo-texto.
+R: sort
+
 (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
-sed -e 's/a/b/' <-- Substitui a por b.
+R: sed
+
 (s) Conferir se dois arquivos são iguais.
+R: diff 
+
 (t) Escrever algo na tela.
+R: prompt
