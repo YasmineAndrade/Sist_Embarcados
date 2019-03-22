@@ -1,0 +1,16 @@
+2. Ex19
+
+/cals 1 2000 4 2001
+n=0
+for i in $@
+do
+if[n -eq 0]; then
+args = $i
+$n=1
+elsif [n - eq 1]; then
+cal $args $1
+$n=0
+fim
+done
+  
+- pega par, depois somar 1  em n, concatenar os dois
