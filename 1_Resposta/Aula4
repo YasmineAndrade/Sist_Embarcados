@@ -1,4 +1,4 @@
-2. Ex19
+1. 
 
 /cals 1 2000 4 2001
 n=0
@@ -14,3 +14,11 @@ fim
 done
   
 - pega par, depois somar 1  em n, concatenar os dois
+
+2. // usar um while
+echo "Digite o mês de interesse"
+read mês
+echo "Digite o ano
+read ano
+
+
