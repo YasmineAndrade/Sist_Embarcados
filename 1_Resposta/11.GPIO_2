@@ -1,0 +1,49 @@
+1. Escreva um código em C para gerar uma onda quadrada de 1 Hz em um pino GPIO do Raspberry Pi.
+#include <stdio.h>
+#include <wiringPi.h>
+
+int main()
+{
+	wiringPiSetup();
+	pinMode(3, OUTPUT);
+	
+	while(1)
+	{
+	digitalWrite(3,HIGH);
+	delay(1000);
+	
+	digitalWrite(3,LOW);
+	delay(1000);
+	}
+	return 0;
+}
+
+2. Generalize o código acima para qualquer frequência possível.
+#include <stdio.h>
+#include <wiringPi.h>
+
+int main()
+{
+	float freq=0.0, temp=0.0;
+	printf("Digite a frequencia\n");
+	
+	scanf("%f",&freq);
+	
+	temp=1000/freq;
+	
+	
+	wiringPiSetup();
+	pinMode(3, OUTPUT);
+	
+	while(1)
+	{
+	digitalWrite(3,HIGH);
+	delay(temp);
+	
+	digitalWrite(3,LOW);
+	delay(temp);
+	}
+	return 0;
+}
+
+3. Crie dois processos, e faça com que o processo-filho gere uma onda quadrada, enquanto o processo-pai lê um botão no GPIO, aumentando a frequência da onda sempre que o botão for pressionado. A frequência da onda quadrada deve começar em 1 Hz, e dobrar cada vez que o botão for pressionado. A frequência máxima é de 64 Hz, devendo retornar a 1 Hz se o botão for pressionado novamente.
