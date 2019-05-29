@@ -13,12 +13,18 @@ caso não exista, ele será criado.
 Para fechar arquivo: fclose< ponteiro >;
 
 (b) Quais são as funções (e seus protótipos) para escrever em arquivos?
+fprintf(nome_do_ponteiro_para_o_arquivo, “%s”,variavel_string);
 
 (c) Quais são as funções (e seus protótipos) para ler arquivos?
+Leitura por caracter: getc(ponteiro_do_arquivo);
+Leitura por string: fgets();
 
 (d) Quais são as funções (e seus protótipos) para reposicionar um ponteiro para arquivo?
+Reposicionar ponteiro: fseek();
+Reposicionar ponteiro para início do arquivo: rewind();
 
 (e) Quais bibliotecas devem ser incluídas no código para poder utilizar as funções acima?
+stdio.h
 
 2. O que é a norma POSIX?
 
